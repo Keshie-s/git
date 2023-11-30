@@ -49,4 +49,18 @@ nav ul li a ::after{
 nav ul li a :hover::after{
     width: 100%;
 }
-
+.social-icons{
+    right: 72px;
+    position: absolute;
+    bottom: 35px;
+}
+.social-icons ul li a{
+    border-radius: 100%;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    border: 2px solid;
+    color: rgb(71, 65, 65);
+    padding: 5px;
+    
+}
