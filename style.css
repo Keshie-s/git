@@ -10,45 +10,22 @@
     
 }
 .name{
-    font-weight: bolder !important;
-    font-size: 30px !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative !important;
-    left: 0rem;
-    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-nav{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-nav ul li{
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    margin: 10px 20px;
-}
-nav ul li a{
-   text-decoration: none; 
-   font-size: 18px;
-   position: relative;
-}
-.a1{
-    font-weight: bolder !important;
-    font-size: 30px !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-    left: 15rem;
+.name img{
+    width: 80px;
+    height: 50px;
+    border-radius: 15px;
 }
 .container{
     width:100%;
-    padding: 5px 70px;
+    padding: 5px 45px;
     padding-right: 35px;
     margin-right: 15px;
-
+    background-image: url(images/baki.png);
+    color:wheat;
     
     
     
@@ -66,15 +43,13 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin: 10px 20px;
-       position: relative;
-   left: 10rem;
+    font-weight: bolder;
+    font-size: 30px;
 }
 nav ul li a{
    text-decoration: none; 
    font-size: 18px;
    position: relative;
-   left: 10rem;
-   color: aliceblue;
 }
 nav ul li a ::after{
     background:var(--main-colour);
